@@ -9,6 +9,7 @@ void main() {
   print("My name is: $name");
   print("My university is: $university");
   print("My age is: $age");
+  print("My university is: ${mapp["university"]}");
 
   var cmap = new Map();
   cmap["name"] = "khan";
@@ -18,7 +19,7 @@ void main() {
   print(cmap["name"]);
   print(cmap["age"]);
   print(cmap["university"]);
-  print("My name is: " + cmap["name"]);
-  print("My age is: " + cmap["age"]);
-  print("My university is: " + cmap["university"]);
+  print("My name is:  ${cmap["name"]}");
+  print("My age is:  ${cmap["age"]}");
+  print("My university is:  ${cmap["university"]}");
 }
